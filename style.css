@@ -1,0 +1,145 @@
+html {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  width: 700px;
+  padding: 30px 100px 30px 100px;
+  background-color: #222;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  z-index: 9;
+}
+
+a {
+  text-decoration-line: none;
+  color: white;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 900px;
+  position: relative;
+}
+
+header {
+  margin-top: 100px;
+  height: 450px;
+  width: 350px;
+  font-family: 'Abril Fatface', cursive;
+  background: top url("https://images-ext-2.discordapp.net/external/kg6AznK2Xr29EGv_coPydArW3m2LRK4GzCSaAWglOLs/https/aisvip-a.akamaihd.net/masters/520356/hayden-christensen-warum-er-den-star-wars-ruhm-satt-hatte.jpg");
+  background-size: auto 500px;
+  filter: grayscale(0.3);
+  position: relative;
+}
+
+h1  {
+  color: #222;
+  font-size: 36px;
+  position: absolute;
+  top: 180px; left: 65px;
+}
+
+span {
+  font-size: 72px;
+  line-height: 80%;
+}
+
+.prolog {
+  margin: 120px 0 0 50px;
+  font-size: 23px;
+  width: 500px;
+}
+
+.big {
+  font-size: 23px;
+}
+
+li {
+  line-height: 1.5;
+  list-style: square;
+  font-size: 20px;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 48px;
+  width: 26.1%;
+  background-color: #222;
+  padding: 50px;
+  margin: 50px 0 10px;
+  color: white;
+  position: relative;
+}
+
+blockquote::before {
+  position: absolute;
+  top: -35px;
+  left: -2px;
+  font-size: 130px;
+  content: '\201C';
+  color: white;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 18px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 900%; 
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 50px 0 0 0;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.achivements {
+  width: 500px;
+  margin: 100px 0 0 0;
+}
+  
+.experience {
+  width: 50%;
+  margin: 100px 0 0 0;
+}
+
+.training {
+  width: 50%;
+  margin: 100px 0 0 0;
+}
+
+.personal {
+  padding: 50px 0 0 20px;
+  border-top: 4px solid black;
+  margin-top: 50px;
+  width: 50%;
+}
